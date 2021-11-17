@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/yellow_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MiCuenta_Act">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="345dp"
+        android:layout_height="552dp"
+        app:cardCornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.497">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="333dp"
+            android:layout_height="510dp">
+
+            <Button
+                android:id="@+id/login10"
+                android:layout_width="252dp"
+                android:layout_height="53dp"
+                android:layout_margin="10dp"
+                android:onClick="MiCuenta"
+                android:text="Ver mi rol de usuario"
+                app:cardCornerRadius="25dp"
+                app:cornerRadius="25dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView9"
+                app:layout_constraintVertical_bias="0.704" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="174dp"
+                android:layout_height="189dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.084"
+                app:srcCompat="@drawable/yo" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="183dp"
+                android:layout_height="96dp"
+                android:text="Nombre: Pablo Torres Labraña
+                              Edad: 21 años
+                              Profesion: Desarrollador backend"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.52"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView4"
+                app:layout_constraintVertical_bias="0.068" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>
