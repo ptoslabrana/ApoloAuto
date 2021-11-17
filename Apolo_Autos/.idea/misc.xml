@@ -3,7 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_home.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/drawable-v24/yellow_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26666666666666666" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_auto_nuevos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_auto_usado.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_info.xml" value="0.264" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_mi_cuenta.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/ganst/AndroidStudioProjects/Apolo_Autos/app/src/main/res/layout/activity_publicaciones.xml" value="0.264" />
       </map>
     </option>
   </component>
@@ -12,5 +22,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.25416666666666665" />
+      </ProjectState>
+    </option>
   </component>
 </project>
